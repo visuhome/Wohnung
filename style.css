@@ -42,19 +42,7 @@ a, a:hover, a:active, a:visited {
   overflow: hidden;
 }
 
-#titleBar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 40px;
-  height: 40px;
-  text-align: center;
-}
 
-.mobile #titleBar {
-  height: 50px;
-  right: 50px;
-}
 
 /* If there is a fullscreen button the title bar must make space for it */
 body.fullscreen-enabled #titleBar {
