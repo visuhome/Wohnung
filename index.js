@@ -94,18 +94,9 @@
       scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
     });
 
-    // Create info hotspots.
-    data.infoHotspots.forEach(function(hotspot) {
-      var element = createInfoHotspotElement(hotspot);
-      scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
-    });
+    
 
-    return {
-      data: data,
-      scene: scene,
-      view: view
-    };
-  });
+   
 
   // Set up autorotate, if enabled.
   var autorotate = Marzipano.autorotate({
