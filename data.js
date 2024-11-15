@@ -38,12 +38,7 @@ var APP_DATA = {
           "target": "1-wc"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": 0.31707780964676857,
-          "pitch": 0.22605650941548738,
-          "title": "Title",
-          "text": "Text"
+      
         }
       ]
     },
